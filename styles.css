@@ -569,7 +569,10 @@ footer a {
   }
 
   .hero {
-    padding-inline: 20px;
+    background-image: url("assets/hero-background-mobile.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   .hero h1 {
