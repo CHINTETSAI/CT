@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Chin-Te Tsai — forest ecologist studying plant–soil interactions and fungal community ecology." />
+  <meta name="theme-color" content="#17352c" />
+  <title>Chin-Te Tsai | Forest Ecologist</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Back to top">CT.</a>
+
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="sr-only">Toggle navigation</span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-shade"></div>
+
+      <div class="hero-content">
+        <div class="portrait-wrap">
+          <img
+            class="portrait"
+            src="assets/profile-placeholder.svg"
+            alt="Profile placeholder for Chin-Te Tsai"
+          />
+        </div>
+
+        <div class="hero-copy">
+          <p class="eyebrow">Forest ecology · Soil fungi · Spatial ecology</p>
+          <h1 id="hero-title">Chin-Te Tsai</h1>
+          <p class="lead">
+            I study how trees shape belowground fungal communities across space,
+            and how these hidden ecological processes influence forest regeneration
+            and community dynamics.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#research">Explore my research</a>
+            <a class="button button-ghost" href="#contact">Get in touch</a>
+          </div>
+        </div>
+      </div>
+
+      <a class="scroll-cue" href="#about" aria-label="Scroll to About section">
+        <span>Scroll</span>
+        <span class="scroll-line"></span>
+      </a>
+    </section>
+
+    <section class="section section-light" id="about">
+      <div class="section-grid">
+        <div>
+          <p class="section-kicker">About</p>
+          <h2>Looking beneath the forest floor.</h2>
+        </div>
+
+        <div class="section-copy">
+          <p>
+            I am a doctoral researcher in ecology with a background in microbiology
+            and microbial community analysis. My work connects field sampling,
+            fungal metabarcoding, community ecology, and statistical modelling to
+            understand how individual trees structure the soil communities around them.
+          </p>
+          <p>
+            I am especially interested in host-associated fungi, plant–soil feedback,
+            spatial heterogeneity, and the ecological legacies that remain after a tree
+            changes or dies. By linking belowground patterns with forest dynamics, I hope
+            to clarify how microscopic interactions scale up to shape plant communities.
+          </p>
+
+          <dl class="fact-list">
+            <div>
+              <dt>Focus</dt>
+              <dd>Plant–soil interactions</dd>
+            </div>
+            <div>
+              <dt>Methods</dt>
+              <dd>ITS metabarcoding, ordination, mixed models</dd>
+            </div>
+            <div>
+              <dt>Study systems</dt>
+              <dd>Subtropical forests in Taiwan</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="research">
+      <div class="section-heading">
+        <p class="section-kicker">Research</p>
+        <h2>Questions that guide my work</h2>
+        <p>
+          My research asks how ecological influence changes with distance, direction,
+          host condition, and environmental context.
+        </p>
+      </div>
+
+      <div class="research-grid">
+        <article class="research-card">
+          <span class="card-number">01</span>
+          <h3>Tree-associated fungal communities</h3>
+          <p>
+            How strongly does an individual tree organize fungal communities in the
+            soil around it, and how rapidly does that signal fade with distance?
+          </p>
+        </article>
+
+        <article class="research-card">
+          <span class="card-number">02</span>
+          <h3>Plant–soil feedback and legacy</h3>
+          <p>
+            How do living and dead trees differ in the microbial legacies they leave,
+            and what do those legacies mean for later plant establishment?
+          </p>
+        </article>
+
+        <article class="research-card">
+          <span class="card-number">03</span>
+          <h3>Spatial ecology and synthesis</h3>
+          <p>
+            How can spatial patterns across individual studies be quantified and
+            combined to identify general ecological boundaries?
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-contact" id="contact">
+      <div class="contact-panel">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2>Let’s talk ecology.</h2>
+          <p>
+            I welcome conversations about forest ecology, fungal communities,
+            plant–soil feedback, data analysis, and potential collaborations.
+          </p>
+        </div>
+
+        <div class="contact-links">
+          <a href="mailto:awsd1257@gmail.com">
+            <span>Email</span>
+            <strong>awsd1257@gmail.com</strong>
+          </a>
+          <a href="https://github.com/awsd1257" target="_blank" rel="noreferrer">
+            <span>GitHub</span>
+            <strong>@awsd1257</strong>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Chin-Te Tsai</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
