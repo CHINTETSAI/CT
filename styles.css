@@ -528,8 +528,9 @@ footer a {
   }
 
   .hero-content {
-    grid-template-columns: 1fr;
-    text-align: center;
+	grid-template-columns: 1fr;
+  	text-align: center;
+  	transform: none;
   }
 
   .portrait {
