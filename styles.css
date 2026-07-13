@@ -222,7 +222,7 @@ transform: translateX(-80px);
   max-width: 700px;
   font-size: clamp(2.8rem, 6vw, 5.5rem);
   letter-spacing: -0.045em;
-  text-shadow: 0 2px 15px rgba(65, 93, 78, 0.45);
+  text-shadow: 0 4px 10px rgba(65, 93, 78, 1);
 
 }
 
