@@ -160,7 +160,7 @@ img {
   grid-template-columns: minmax(220px, 340px) minmax(0, 1fr);
   gap: clamp(20px, 3vw, 45px);
   align-items: center;
-	transform: translateX(-180px);
+	transform: translateX(-80px);
 
 	
 }
